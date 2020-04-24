@@ -1,0 +1,19 @@
+{
+    "name": "w3zones/contact",
+    "description": "Laravel contact use and sending email package",
+    "type": "librarry",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rk\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rk\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
